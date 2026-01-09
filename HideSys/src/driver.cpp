@@ -6,7 +6,7 @@ PWSTR m_wcKnownDrivers[] =
 {
     L"loader.sys",
     L"hook.sys",
-    L"i8042prt.sys",
+    L"iqvw64e.sys",
     L"cyber.sys"
 };
 
@@ -364,4 +364,5 @@ NTSTATUS DriverEntry(PDRIVER_OBJECT DriverObject, PUNICODE_STRING RegistryPath)
 
     return STATUS_SUCCESS;
 }
+
 
